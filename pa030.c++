@@ -25,10 +25,10 @@ void employee :: setdata(int a1 ,int b2 ,int c3){
 }
 int main()
 {
-    employee harry;
-    harry.d=34;
-    harry.e=89;
-    harry.setdata(1,2,3);
-    harry.getdata();
+    employee h;
+    h.d=34;
+    h.e=89;
+    h.setdata(1,2,3);
+    h.getdata();
     return 0;
 }  
